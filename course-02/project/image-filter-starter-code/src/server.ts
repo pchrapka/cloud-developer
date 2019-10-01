@@ -27,7 +27,7 @@ import {filterImageFromURL, deleteLocalFiles} from './util/util';
         res.sendFile(result, function (err){
           deleteLocalFiles([result]);
           if(err){
-            res.status(err.status).end();
+            res.status(500).send("something went wrong");
           }
         });
         return result;
