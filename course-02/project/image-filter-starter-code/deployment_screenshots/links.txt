@@ -1,0 +1,5 @@
+elastic beanstalk endpoint
+http://udagram-filter-chrapka-dev-dev.us-west-2.elasticbeanstalk.com/filteredimage?image_url={{URL}}
+
+github repo
+https://github.com/pchrapka/cloud-developer
